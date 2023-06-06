@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+
+
+<body>
+    <div class="Container">
+        <h1>  Budget App</h1>
+
+
+        <form>
+            <div id="budget">
+            <h2>Budget</h2>
+           <input type="number" id="inputBudget"  placeholder="Enter Total Amount"> <br><br>
+           <button>  Set Budget   </button>  
+           </div>   
+           </form>
+           <br><br><br>
+
+    <form>
+    <div id="expenselist"> 
+    <!-- <h4>Due Date</h4>
+    <input  id="dateinput"  type="date" />  -->
+    </div>
+ 
+ <!-- <div class="one">
+    <h3>Recurring?</h3>
+    <select >
+    <option value="Yes">Yes</option>
+    <option value="No">No</option>
+    </select>  
+  </div> -->
+
+    <hr> <h2>
+      Expense
+    </h2>
+    <hr>
+  
+<div class="two">
+    <h3>Total Amount</h3>
+    <input type="number">
+</div>
+
+<div class="three">
+    <h3>Category</h3>
+    <!-- <input type="text" placeholder="Cost Of Service Provided"> -->
+    <select > 
+        <option value="" disabled selected hidden> Cost Of Service Provided </option>
+ 
+        <option value="1"> Restaurant & Cafe </option>
+        <option value="2"> Clothes & Shopping </option>
+        <option value="3"> Credit & Loan</option>
+        <option value="4">Gifts Card</option>
+    </select>
+
+</div>
+ 
+<div class="four">
+    <h3>Description</h3>
+    <input type="text">
+
+</div>
+ 
+<div class="five">
+    <h3>Payment Date</h3>
+    <input type="date" name="" id="">
+</div>
+
+<div id="btn-buget"> 
+    <button>   Add Expenses   </button>
+</div>
+    </form>
+ <div class="RemainingBudget">
+    <h2>Remaining Budget: <span class="RemainingBudget" id="RemainingBudget"></span></h2>
+    </div>
+
+  <div id="expenseshow" class="result">
+
+    <div class="R1">
+    <h3>Total Budget</h3>
+    <p>0</p>
+  </div>
+  <div class="R2">
+    <h3>Expenses</h3>
+    <p>0</p>
+  </div>
+  <div class="R3">
+    <h3>Balance</h3>
+    <p>0</p>
+  </div>
+    
+  </div>
+  <!-- <h2>Remaining Budget: <span class="RemainingBudget" id="RemainingBudget"></span></h2> -->
+    
+   </div>
+</body>
+</html>

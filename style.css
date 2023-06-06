@@ -1,0 +1,98 @@
+*{
+    background-color: rgb(255, 181, 239);
+    margin: 2px;
+    padding: 1px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.Container{
+     margin: 8px;
+     padding: 8px;
+}
+div  h1{
+    color: rgb(2, 55, 230);
+    
+}
+form{
+   align-items: center;
+   justify-content: center;
+   width: 90%; 
+   max-width: 500px; 
+   border: 3px solid rgb(6, 11, 1);
+   background:scroll;
+   margin: 1%;
+   height: 70%;
+   max-height: 600px;
+   position: relative;
+}
+button{
+    padding: 9px 12px;
+    background-color: rgb(0, 110, 255);
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    color: rgb(248, 250, 251);
+    font-size:medium;
+    transition: all 2s;
+    /* width: 20%;
+    height: 30px; */
+}
+button:hover{
+    background-color: aqua;
+    color: black;
+}
+.result{
+    display: flex;
+    margin-left: 43%;
+    cursor: pointer; 
+    border: none;
+    margin-top: -25%; 
+    border: 5px solid rgb(10, 170, 239);  
+    width: 20%; 
+    /* background-color: rgb(10, 170, 239); */
+    color: rgb(0, 1, 2);
+}
+/* .result,.R1,.R2,.R3{
+    background-color: rgb(6, 220, 223);
+}
+.R2{
+    background-color: rgb(6, 216, 223);
+}
+.R3{
+    background-color: rgb(6, 151, 223); */
+
+
+.RemainingBudget{
+    padding-left: 659px;    
+
+}
+
+
+
+
+
+
+/* .R1> h3>p{
+    margin-right: 10%;
+    background-color: rgb(128, 185, 6);
+}   */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
